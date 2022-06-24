@@ -1,5 +1,5 @@
 const Http = new XMLHttpRequest();
-const url='https://gmail.googleapis.com/gmail/v1/users/attarhome598%40gmail.com/messages?maxResults=1&key=AIzaSyBpSEdHt5JgHaBogK9Zd3eq7r0k_9DQrmY';
+const url='https://gmail.googleapis.com/gmail/v1/users/attarhome598%40gmail.com/messages?maxResults=1&key=';
 Http.open("GET", url);
 Http.send();
 
